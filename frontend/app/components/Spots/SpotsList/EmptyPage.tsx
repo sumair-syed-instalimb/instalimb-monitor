@@ -23,7 +23,7 @@ function EmptyPage() {
           >
             <img
               src="/assets/img/spot-demo-cta.jpg"
-              alt="Learn how to use OpenReplay Spot"
+              alt="Learn how to use Instalimb Spot"
             />
           </a>
         </div>

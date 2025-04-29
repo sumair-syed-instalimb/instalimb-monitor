@@ -56,14 +56,14 @@ function OnboardingMenu(props) {
 
   return (
     <div>
-      <SideMenuitem title="Install OpenReplay" iconName="tools" active />
+      <SideMenuitem title="Install Instalimb Monitor" iconName="tools" active />
       <SideMenuitem title="Identify Users" iconName="tools" active />
       <SideMenuitem title="Invite Collaborators" iconName="tools" active />
       <SideMenuitem title="Integrations" iconName="tools" active />
 
       <Item
         icon="check"
-        text="Install OpenReplay"
+        text="Install Instalimb Monitor"
         completed={activeIndex >= 0}
         active={activeIndex === 0}
         onClick={() => setTab(MENU_ITEMS[0])}

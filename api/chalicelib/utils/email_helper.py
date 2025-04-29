@@ -7,7 +7,7 @@ def send_team_invitation(recipient, client_id, sender_name, invitation_link):
                                      formatting_variables={"invitationLink": invitation_link,
                                                            "clientId": client_id,
                                                            "sender": sender_name})
-    SUBJECT = "Welcome to OpenReplay"
+    SUBJECT = "Welcome to Instalimb Monitor"
     send_html(BODY_HTML, SUBJECT, recipient)
 
 
